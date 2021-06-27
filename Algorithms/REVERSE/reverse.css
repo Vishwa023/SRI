@@ -1,0 +1,273 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*{
+    
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    padding: 0rem;
+}
+
+.container{
+    background-color: #b9b9b9;
+    height: 90vh;
+    padding-top: 40vh;
+    text-align: center;
+}
+
+.button_container{
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.array_element{
+    display: inline-block;
+    background-color: rgba(149, 3, 165,1);
+    width: 5rem;
+    height: 3rem;
+    line-height: 3rem;
+    margin: 0;
+    text-align: center;
+    border-radius: 3px;
+    color: white;
+    font-size: 2rem;
+    transition: all .6s;
+}
+
+.array_element:not(:last-child){
+    margin-right: 4.73rem;
+}
+
+.class_move_right_1{
+    animation: animation_move_right_1 2s;
+    animation-fill-mode: forwards;
+}
+.class_move_right_2{
+    animation: animation_move_right_2 2s;
+    animation-fill-mode: forwards;
+}
+.class_move_right_3{
+    animation: animation_move_right_3 2s;
+    animation-fill-mode: forwards;
+}
+.class_move_right_4{
+    animation: animation_move_right_4 2s;
+    animation-fill-mode: forwards;
+}
+.class_move_right_5{
+    animation: animation_move_right_5 2s;
+    animation-fill-mode: forwards;
+}
+.class_move_left_1{
+    animation: animation_move_left_1 2s;
+    animation-fill-mode: forwards;
+}
+.class_move_left_2{
+    animation: animation_move_left_2 2s;
+    animation-fill-mode: forwards;
+}
+.class_move_left_3{
+    animation: animation_move_left_3 2s;
+    animation-fill-mode: forwards;
+}
+.class_move_left_4{
+    animation: animation_move_left_4 2s;
+    animation-fill-mode: forwards;
+}
+.class_move_left_5{
+    animation: animation_move_left_5 2s;
+    animation-fill-mode: forwards;
+}
+
+
+@keyframes animation_move_right_1{
+
+    0%{
+
+    }
+
+    25%{
+        transform: translateY(-6rem);
+    }
+
+    75%{
+        transform: translateX(90rem) translateY(-6rem);
+    }
+
+    100%{
+        transform: translateX(90rem) translateY(0);
+    }
+}
+
+@keyframes animation_move_right_2{
+
+    0%{
+
+    }
+
+    25%{
+        transform: translateY(-6rem);
+    }
+
+    75%{
+        transform: translateX(70rem) translateY(-6rem);
+    }
+
+    100%{
+        transform: translateX(70rem) translateY(0);
+    }
+}
+@keyframes animation_move_right_3{
+
+    0%{
+
+    }
+
+    25%{
+        transform: translateY(-6rem);
+    }
+
+    75%{
+        transform: translateX(50rem) translateY(-6rem);
+    }
+
+    100%{
+        transform: translateX(50rem) translateY(0);
+    }
+}
+@keyframes animation_move_right_4{
+
+    0%{
+
+    }
+
+    25%{
+        transform: translateY(-6rem);
+    }
+
+    75%{
+        transform: translateX(30rem) translateY(-6rem);
+    }
+
+    100%{
+        transform: translateX(30rem) translateY(0);
+    }
+}
+@keyframes animation_move_right_5{
+
+    0%{
+
+    }
+
+    25%{
+        transform: translateY(-6rem);
+    }
+
+    75%{
+        transform: translateX(10rem) translateY(-6rem);
+    }
+
+    100%{
+        transform: translateX(10rem) translateY(0);
+    }
+}
+
+
+/* move in left animations */
+
+@keyframes animation_move_left_1{
+
+    0%{
+
+    }
+
+    25%{
+        transform: translateY(6rem);
+    }
+
+    75%{
+        transform: translateX(-90rem) translateY(6rem);
+    }
+
+    100%{
+        transform: translateX(-90rem) translateY(0);
+    }
+}
+
+@keyframes animation_move_left_2{
+
+    0%{
+
+    }
+
+    25%{
+        transform: translateY(6rem);
+    }
+
+    75%{
+        transform: translateX(-70rem) translateY(6rem);
+    }
+
+    100%{
+        transform: translateX(-70rem) translateY(0);
+    }
+}
+@keyframes animation_move_left_3{
+
+    0%{
+
+    }
+
+    25%{
+        transform: translateY(6rem);
+    }
+
+    75%{
+        transform: translateX(-50rem) translateY(6rem);
+    }
+
+    100%{
+        transform: translateX(-50rem) translateY(0);
+    }
+}
+@keyframes animation_move_left_4{
+
+    0%{
+
+    }
+
+    25%{
+        transform: translateY(6rem);
+    }
+
+    75%{
+        transform: translateX(-30rem) translateY(6rem);
+    }
+
+    100%{
+        transform: translateX(-30rem) translateY(0);
+    }
+}
+@keyframes animation_move_left_5{
+
+    0%{
+
+    }
+
+    25%{
+        transform: translateY(6rem);
+    }
+
+    75%{
+        transform: translateX(-10rem) translateY(6rem);
+    }
+
+    100%{
+        transform: translateX(-10rem) translateY(0);
+    }
+}

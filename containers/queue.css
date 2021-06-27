@@ -1,0 +1,90 @@
+
+.html{
+    position: relative;
+}
+
+.queue{
+    padding-top: 20rem;
+    height: 100vh;
+}
+
+.queue__container{
+    width: 10vw;
+    margin: 0 45vw;
+    margin-bottom: 5rem;
+    height: 30vh;
+    border-radius: 2px;
+    border-left: 3px solid grey;
+    border-right: 3px solid grey;
+}
+
+
+.element_queue{
+    text-align: center;
+    font-size: 1.4rem;
+    color: #fff;
+    /* /* position: absolute; */
+    width: 9vw;
+    height: 5vh;
+    line-height: 5vh;
+    
+    position: absolute;
+    top: 20rem;
+
+    /* background-color: blue; */
+    border-radius: 4px;
+}
+
+
+
+/* push classes */
+
+
+
+/* pop classes */
+
+.queue_classes_5{
+    transform: translateX(45.5vw) translateY(6vh);
+}
+.queue_classes_4{
+    transform: translateX(45.5vw) translateY(12vh);
+}
+.queue_classes_3{
+    transform: translateX(45.5vw) translateY(18vh);
+}
+.queue_classes_2{
+    transform: translateX(45.5vw) translateY(24vh);
+}
+
+
+
+.class_animation_qpop_1{
+    
+    transition: all 1s;
+    animation: qPOP_1 4s;
+    transform: translateX(45.5vw) translateY(24vh);
+    animation-fill-mode: forwards;
+}
+
+
+
+@keyframes qPOP_1{
+    0%{
+        transform: translateX(45.5vw) translateY(24vh);
+    }
+
+    50%{
+        transform: translateX(45.5vw) translateY(30vh);
+    }
+
+    75%{
+        opacity:0.8;
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateX(90vw) translateY(30vh);
+    }
+    
+
+}

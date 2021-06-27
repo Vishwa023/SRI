@@ -1,0 +1,21 @@
+
+html{
+    height: 100vh;
+}
+
+ul.nav.nav-pills{
+    background-color: #EEEFEF;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.btn{
+
+}
+
+.iframe{
+    border: none;
+    border-top: 1px solid black;
+    height: 100vh;
+}
